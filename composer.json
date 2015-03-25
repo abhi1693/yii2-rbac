@@ -1,0 +1,23 @@
+{
+  "name": "abhi1693/yii2-rbac",
+  "description": "Yii2 Role Based Access Control Module",
+  "minimum-stability": "dev",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Abhimanyu Saharan",
+      "email": "abhimanyu@teamvulcans.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "abhi1693/yii2-user": "*",
+    "abhi1693/yii2-installer": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "abhimanyu\\rbac\\": ""
+    }
+  }
+}
